@@ -39,13 +39,13 @@ div.options div {
 	padding-right: 30px;
 }
 
-.go {
+#go {
 	position: absolute;
 	left: 48%;
 	margin-top: 5%;
 }
 
-.go button {
+#go button {
 	font-weight: bold;
 	width: 90px;
 	text-align: center;
