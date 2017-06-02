@@ -66,55 +66,44 @@
             <p class="lead">The internet's best resources under one roof. </br> Save time searching and spend it on learning. </p>
           
 
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="input-group">
-                <div class="input-group-btn">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-default dropdown-toggle" role="group" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="Grade">Curriculum <span class="caret"></span></button>
-                      <ul class="dropdown-menu">
-                        <li><a href="#">CBSE</a></li>
-                        <li><a href="#">ICSE</a></li>
-                      </ul>
-                    </div><!-- /btn-group -->
+          <form action="/Website/make_an_impact/chapter.html" method="POST">
+              <div class="form-group">
+                <div class="col-sm-4">
+                  <label for="sel1">Board</label>
+                    <select class="form-control" id="sel1">
+                      <option>CBSE</option>
+                    </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-4">
+                  <label for="sel2">Grade</label>
+                    <select class="form-control" id="sel2">
+                      <option>5th</option>
+                      <option>6th</option>
+                      <option>7th</option>
+                      <option>8th</option>
+                    </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-4">
+                  <label for="sel2">Subject</label>
+                    <select class="form-control" id="sel2">
+                      <option>Science</option>
+                      <option>Mathematics</option>
+                      </select>
+                </div>
+              </div>
 
+            </form>
 
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-default dropdown-toggle" role="group" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="Grade">Grade <span class="caret"></span></button>
-                    <ul class="dropdown-menu">
-                      <li><a href="#">5th</a></li>
-                      <li><a href="#">6th</a></li>
-                      <li><a href="#">7th</a></li>
-                      <li><a href="#">8th</a></li>
-                    </ul>
-                  </div><!-- /btn-group -->
-
-
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-default dropdown-toggle" role="group" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="Grade">Subject <span class="caret"></span></button>
-                    <ul class="dropdown-menu">
-                    <li class="dropdown-header">CBSE</li>
-                      <li><a href="#">Science</a></li>
-                      <li><a href="#">Maths</a></li>
-                      <li><a href="#">English</a></li>
-                    <li class="dropdown-header">ICSE</li>
-                      <li><a href="#">Physics</a></li>
-                      <li><a href="#">Chemistry</a></li>
-                      <li><a href="#">Biology</a></li>
-                      <li><a href="#">Maths</a></li>
-                      <li><a href="#">English</a></li>
-                    </ul>
-                  </div><!-- /btn-group -->
-                </div><!--input-group-btn-->
-              </div><!-- /input-group -->
-            </div><!-- /.col-lg-12 -->
-          </div><!-- /.row -->
-
-
-      <div class="go">
-        <button type="button" class="btn btn-md btn-default">Go
-        </button>
-      </div> <!--go--> 
+      <div class="control-group">
+        <div class="go">
+          <button type="button" class="btn btn-md btn-default">Go
+          </button>
+        </div> <!--HALP: Dont know how to add vertical space above the Go Button-->
+      <div><!--go--> 
 
         </div> <!--inner cover-->
 
